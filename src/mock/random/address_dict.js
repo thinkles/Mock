@@ -4052,6 +4052,7 @@ function tree(list) {
 
 var DICT_FIXED = function() {
     var fixed = []
+    // 生成树节点
     for (var id in DICT) {
         var pid = id.slice(2, 6) === '0000' ? undefined :
             id.slice(4, 6) == '00' ? (id.slice(0, 2) + '0000') :
@@ -4062,6 +4063,7 @@ var DICT_FIXED = function() {
             name: DICT[id]
         })
     }
+    // 构造树
     return tree(fixed)
 }()
 
