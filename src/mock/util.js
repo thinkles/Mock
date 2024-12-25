@@ -1,6 +1,6 @@
-/*
-    ## Utilities
-*/
+ 
+// SECTION 工具类入口  
+
 var Util = {}
 
 Util.extend = function extend() {
