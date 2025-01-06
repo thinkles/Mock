@@ -1,9 +1,4 @@
-/*
-* SECTION random 入口
-* 用途：工具类，用于生成各种随机数据。
-*/
-
- 
+// REVIEW[epic=entry]: random 入口
 
 var Util = require('../util')
 
